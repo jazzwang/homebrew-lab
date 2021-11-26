@@ -7,4 +7,5 @@ cask "yuanta-superatm" do
   homepage "https://superatm.tw/jwss/superatmqa/page05.htm"
   sha256 "65ed004fa3fb5e54faa6ded1e5d10fb91d915170ea5518b689459bda6c0825e8"
   pkg "YuantaServiSignMacSetup.pkg"
+  uninstall pkgutil: "com.changingtec.servisign.c.YuantaServiSign"
 end
