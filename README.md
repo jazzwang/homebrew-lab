@@ -12,3 +12,11 @@ jazzwang:~$ sudo launchctl procinfo 397 | grep plist
 Password:
 	path = /Library/LaunchAgents/com.web.agent.ESUNATM_service.plist
 ```
+
+## 2021-11-28
+
+- ( 2021-11-28 20:05:30 ) MegaWebATM and YuanTa
+```
+jazzwang:~$ launchctl list | grep -i atm
+420	0	application.tw.com.Mega.MegaWebATMHelper.43912549.43912554
+```
