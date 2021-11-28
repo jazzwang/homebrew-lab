@@ -5,4 +5,5 @@ cask "mega-webatm" do
   name "MegaBank WebATM ActiveX Plugin"
   desc "ActiveX plugin for MegaBank WebATM"
   homepage "https://netbank.megabank.com.tw/natm/"
+  pkg "MegaWebATM.app"
 end
